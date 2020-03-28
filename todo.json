@@ -1,0 +1,113 @@
+{"todos":[
+        {
+            "id": 1,
+            "userId": 1,
+            "title": "Lorem ipsum one",
+            "description": "Duis aliquet, quam quis malesuada hendrerit, nulla massa consectetur tortor, gravida viverra odio nibh sit amet metus. Praesent vel dictum magna. Nam laoreet massa eu orci pharetra, eu euismod neque accumsan.",
+            "type": "tasks",
+            "completed": false,
+            "position": { "lat": 40.419753, "lng": -3.689831 },
+            "author": "Willi",
+            "created_at": "27/03/2020"
+        },
+        {
+            "id": 2,
+            "userId": 1,
+            "title": "Lorem ipsum two",
+            "description": "Suspendisse purus eros, mollis at augue eu, pulvinar pharetra nunc. Praesent vel dictum magna. Nam laoreet massa eu orci pharetra, eu euismod neque accumsan.",
+            "type": "events",
+            "completed": false,
+            "position": { "lat": 40.409361, "lng": -3.691996 },
+            "author": "Fernando",
+            "created_at": "26/03/2020"
+        },
+        {
+            "id": 3,
+            "userId": 2,
+            "title": "Lorem ipsum three",
+            "description": "Praesent vel dictum magna. Nam laoreet massa eu orci pharetra, eu euismod neque accumsan. Praesent vel dictum magna. Nam laoreet massa eu orci pharetra, eu euismod neque accumsan.",
+            "type": "events",
+            "completed": false,
+            "position": { "lat": 40.470186, "lng": -3.450313 },
+            "author": "Fernando",
+            "created_at": "26/03/2020"
+        },
+        {
+            "id": 4,
+            "userId": 2,
+            "title": "Lorem ipsum four",
+            "description": "Integer eget libero a mi placerat imperdiet. Suspendisse ultricies, neque accumsan malesuada. Praesent vel dictum magna. Nam laoreet massa eu orci pharetra, eu euismod neque accumsan.",
+            "type": "tasks",
+            "completed": false,
+            "position": { "lat": 40.466482, "lng": -3.686500 },
+            "author": "Willi",
+            "created_at": "26/03/2020"
+        },
+        {
+            "id": 5,
+            "userId": 7,
+            "title": "Lorem ipsum five",
+            "description": "Vivamus hendrerit sit amet enim nec gravida. Praesent vel dictum magna. Nam laoreet massa eu orci pharetra, eu euismod neque accumsan.",
+            "type": "tasks",
+            "completed": true,
+            "position": { "lat": 40.450932, "lng": -3.792190 },
+            "author": "Willi",
+            "created_at": "25/03/2020"
+        },
+        {
+            "id": 6,
+            "userId": 3,
+            "title": "Lorem ipsum six",
+            "description": "In viverra porta ante, at porttitor arcu. Duis dictum bibendum lacus, eu feugiat ligula aliquet cursus. Praesent vel dictum magna. Nam laoreet massa eu orci pharetra, eu euismod neque accumsan.",
+            "type": "events",
+            "completed": true,
+            "position": { "lat": 40.635165, "lng": -4.011580 },
+            "author": "Julio",
+            "created_at": "25/03/2020"
+        },
+        {
+            "id": 7,
+            "userId": 9,
+            "title": "Lorem ipsum seven",
+            "description": "Ut posuere nunc nunc, quis blandit justo volutpat eu. Praesent vel dictum magna. Nam laoreet massa eu orci pharetra, eu euismod neque accumsan.",
+            "type": "tasks",
+            "completed": true,
+            "position": { "lat": 40.430180, "lng": -3.713153 },
+            "author": "Willi",
+            "created_at": "24/03/2020"
+        },
+        {
+            "id": 8,
+            "userId": 2,
+            "title": "Lorem ipsum eight",
+            "description": "Suscipit orci. Ut posuere nunc nunc, quis blandit justo volutpat eu. Praesent vel dictum magna. Nam laoreet massa eu orci pharetra, eu euismod neque accumsan.",
+            "type": "tasks",
+            "completed": true,
+            "position": { "lat": 40.406290, "lng": -3.998604 },
+            "author": "Willi",
+            "created_at": "24/03/2020"
+        },
+        {
+            "id": 9,
+            "userId": 2,
+            "title": "Lorem ipsum nine",
+            "description": "Posuere nunc nunc, quis blandit justo volutpat eu. Praesent vel dictum magna. Nam laoreet massa eu orci pharetra, suscipit orci. Eu euismod neque accumsan.",
+            "type": "events",
+            "completed": true,
+            "position": { "lat": 40.502939, "lng": -3.525748 },
+            "author": "Willi",
+            "created_at": "24/03/2020"
+        },
+        {
+            "id": 10,
+            "userId": 4,
+            "title": "Lorem ipsum ten",
+            "description": "Dictum magna. Nam laoreet massa eu orci pharetra, suscipit orci. Eu euismod neque accumsan. Posuere nunc nunc, quis blandit justo volutpat eu. Praesent vel",
+            "type": "tasks",
+            "completed": true,
+            "position": { "lat": 40.434634, "lng": -3.734333 },
+            "author": "Julio",
+            "created_at": "23/03/2020"
+        }
+    ]
+}

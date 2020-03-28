@@ -1,0 +1,39 @@
+{
+  "name": "nuxt-storybook",
+  "version": "1.0.0",
+  "description": "Nuxt + Storybook + Tailwind",
+  "author": "Willi",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
+    "precommit": "npm run lint",
+    "storybook": "start-storybook -p 9090",
+    "build-storybook": "build-storybook -c .storybook"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.6.0",
+    "@nuxtjs/dotenv": "^1.4.1",
+    "firebase": "^7.12.0",
+    "google-maps-api-loader": "^1.1.1",
+    "nuxt": "^2.9.2"
+  },
+  "devDependencies": {
+    "@storybook/addon-actions": "^5.2.1",
+    "@storybook/vue": "^5.2.1",
+    "autoprefixer": "^8.6.4",
+    "babel-eslint": "^8.2.1",
+    "babel-preset-vue": "^2.0.2",
+    "cross-env": "^5.2.1",
+    "eslint": "^5.0.1",
+    "eslint-loader": "^2.2.1",
+    "eslint-plugin-vue": "^4.0.0",
+    "node-sass": "^4.12.0",
+    "sass-loader": "^7.3.1",
+    "tailwindcss": "^0.6.1",
+    "webpack": "^4.41.0"
+  }
+}
