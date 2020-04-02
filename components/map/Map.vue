@@ -4,7 +4,7 @@
       <div class="grid grid-cols-1 gap-8 shadow-lg">
         <MapLoader
           :configMap="configMap"
-          apiKey="AIzaSyDwO_9T_m5lEI1v87Dsinlj7aJEoWfhlbk"
+          :apiKey="googleMapApiKey"
         >
           <template slot-scope="{ google, map }">
             <div v-if="todos">
@@ -66,6 +66,7 @@
         description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.',
         type: this.$route.name,
         center: { position: { lat: 40.419753, lng: -3.689831 } },
+        googleMapApiKey: process.env.GOOGLE_MAP_API_KEY
       }
     },
     props: {
