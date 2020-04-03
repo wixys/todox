@@ -10,6 +10,6 @@ jobs:
       - uses: codelytv/check-critical-files@v1
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          critical_message: Take a look, you've commited some <b>critical file</b>
+          critical_message: Take a look, you've commited some <b>nuxt.config.js</b>
           critical_files: |
-            .env
+            nuxt.config.js
