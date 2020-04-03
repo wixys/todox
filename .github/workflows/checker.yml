@@ -1,3 +1,7 @@
+name: Check critical files
+
+on: [pull_request]
+
 jobs:
   check-critical-files:
     runs-on: ubuntu-latest
