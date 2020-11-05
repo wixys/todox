@@ -4,7 +4,7 @@ import 'firebase/database'
 import axios from "axios"
 
 const apiClient = axios.create({
-  baseURL: 'https://todo-4ba47.firebaseio.com/todos.json',
+  baseURL: 'todos.json',
   withCredencials: false,
   headers: {
     Accept: "application/json",
