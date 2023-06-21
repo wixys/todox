@@ -20,7 +20,7 @@
     "@nuxtjs/dotenv": "^1.4.1",
     "firebase": "^7.12.0",
     "google-maps-api-loader": "^1.1.1",
-    "nuxt": "^2.9.2"
+    "nuxt": "^3.4.3"
   },
   "devDependencies": {
     "@storybook/addon-actions": "^5.2.1",
